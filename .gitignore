@@ -1,3 +1,58 @@
+.gradle
+/build/
+!gradle/wrapper/gradle-wrapper.jar
+out/
+jar/
+sandbox/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+### Compile HTML ###
+src/main/resources/static
+
+### APIDOC ###
+apidoc.json
+doc/
+
+### node_modules
+node_modules/
+
+### VS Code
+.vscode/
+
+# cypress
+.cache
+cypress/screenshots
+cypress/videos
+
+packages/sandbox
+
+lerna-debug.log
+
+**/__temp.*
+**/__cached.*
+
+
 # Logs
 logs
 *.log
